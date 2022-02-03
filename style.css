@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(88, 54, 54);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 203, 176)
+}
+
+.logo {
+    margin: 5px 5px 5px 100px;
+}
+
+.navbar__menu{
+    display: flex;
+    margin: 5px 100px 5px 5px;
+    justify-content: space-between;
+}
+
+.navbar__item{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(83, 62, 62);
+    font-family: 'Exo', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+main{
+    border-top: 2px solid rgb(83, 62, 62);
+    margin-bottom: 48px;
+}
+
+.container__1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.container__1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container__1-title{
+    color: rgb(238, 181, 106);
+    font-family: 'Exo', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.container__1-subtitle{
+    color: antiquewhite;
+    font-family: 'Exo', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.container__1-button{
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    background-color: rgb(228, 182, 165);
+}
+
+.container__img{
+    height: 200px;
+}
+
+
+.container__2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.container__2-title {
+    color: rgb(238, 181, 106);
+    font-family: 'Exo', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.container__2-description {
+    color: rgb(201, 191, 178);
+    font-family: 'Exo', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyrights{
+    display: block;
+    justify-content: center;
+    color: cornsilk;
+    font-family: 'Exo', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 200;
+}
