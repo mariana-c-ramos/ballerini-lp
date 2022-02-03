@@ -11,6 +11,6 @@ What did I used to do this project:
 3. HTML
 4. CSS
 
-### LP Link
+<a href="https://mariana-c-ramos.github.io/ballerini-lp/" target="_blank">LP Link</a>
 ### LP Preview
 ![image](https://user-images.githubusercontent.com/92554665/152386571-14488b6f-6740-452d-b32e-962a26304410.png)
